@@ -1,0 +1,129 @@
+*{
+    margin:0%;
+    padding:0%;
+    border-radius: 10px;
+}
+body{
+    background-color:hsl(233, 47%, 7%);
+    Font-size: 15px;
+    margin: 10%;
+    max-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+
+}
+.header{
+    color: hsl(0, 0%, 100%);
+    line-height: 45px;
+}
+.sub-header{
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    text-align: left;
+}
+.stats{
+ display:flex;
+ justify-content: space-between;
+ align-content: center;
+ align-items:center;
+ text-align: left;
+ color:hsla(0, 0%, 100%, 0.6);
+ 
+}
+.stats-1{
+    line-height: 25px;
+}
+.stats-2{
+    line-height: 25px;
+}
+.stats-3{
+    line-height: 25px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+.text-container{
+    margin:5%;
+    padding:10px;
+}
+.ins{
+    color:violet;
+}
+.layout{
+    background: hsl(277, 64%, 61%);
+    border-radius: 0px 10px 10px 0px;
+}
+img{
+    mix-blend-mode: multiply;
+    border-radius: 0px 10px 10px 0px;
+    height:100%;  
+}
+.attribution{
+    color:white;
+    text-align: center;
+    margin: 10px;
+    line-height:30px;
+}
+.attribution a{
+    color:violet;
+}
+@media only screen and (max-width: 1250px) {
+    body{
+        background-color:hsl(233, 47%, 7%);
+        Font-size: 15px;
+        margin:13%;
+        max-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .card{
+        margin-bottom:5%;
+        display:flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+        align-content: center;
+        justify-content: center;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 10px;
+    }
+    img {
+        display: block;
+        width: 362px;
+        height: 290px;
+        border-radius: 10px 10px 0px 0px;
+      }
+    
+    .layout{
+        border-radius:10px 10px 0px 0px;
+    }
+    .header{
+        color: hsl(0, 0%, 100%);
+        line-height: 45px;
+        text-align: center;
+    }
+    .sub-header{
+        color:hsla(0, 0%, 100%, 0.75);
+        line-height: 25px;
+        text-align: center;
+    }
+    .stats{
+        display:grid;
+        grid-gap:20px;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+        text-align: center;
+        color:hsla(0, 0%, 100%, 0.6);
+       }
+    .text-container{
+        margin:8%;
+        padding:10px;
+    }
+}
